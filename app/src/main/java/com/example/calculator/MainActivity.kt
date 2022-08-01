@@ -19,9 +19,9 @@ class MainActivity : AppCompatActivity() {
         val tipSwitch: Switch = binding.tipSwitch;
         val myButton: Button = binding.calcutateButton;
 
-        myButton.setOnClickListener {
+        myButton.setOnClickListener({
             calculateTip()
-        }
+        })
     }
 
     private fun calculateTip() {
